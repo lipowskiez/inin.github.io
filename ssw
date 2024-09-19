@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pierwsza testowa strona</title>
+</head>
+<body style="margin: 0; font-family: Arial, sans-serif; text-align: center;">
+   
+    <div style="background-color: black; color: white; padding: 1rem;">
+        <h1 style="font-size: 2 rem;">Header</h1>
+    </div>
+   
+    <div style="display: flex; height: calc(100vh - 160px);">
+       
+        <div style="background-color: grey; color: black; width: 20%; padding: 1rem; display: flex; align-items: center; justify-content: center; font-size: 1.5rem;">
+            Lewy Sidebar
+        </div>
+       
+        <div style="background-color: #0e034d; width: 60%; padding: 1rem; display: flex; align-items: center; justify-content: center; font-size: 1.5rem;">
+
+            
+           <img src="https://i.pinimg.com/originals/53/ca/74/53ca7450967f6d9d65ae1b2006b22f03.jpg" alt="">
+
+
+
+        </div>
+       
+        <div style="background-color: grey; color: black; width: 20%; padding: 1rem; display: flex; align-items: center; justify-content: center; font-size: 1.5rem;">
+            Prawy Sidebar
+        </div>
+    
+    </div>
+   
+    <div style="background-color: black; color: white; padding: 0.5rem; font-size: 2rem;">
+        Footer
+    </div>
+</body>
+</html>
